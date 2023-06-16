@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "montserratbold";
+    src: url("../fonts/montserrat/Montserrat-Bold.ttf");
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url("../fonts/montserrat/Montserrat-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../fonts/montserrat/Montserrat-Light.ttf') format('ttf'),
+         url('DMSans-Medium.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('../fonts/montserrat/Montserrat-Medium.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto/Roboto-Regular.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto/Roboto-Bold.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto/Roboto-Light.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'scadaregular';
+    src: url('../fonts/scada/Scada-Regular.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
