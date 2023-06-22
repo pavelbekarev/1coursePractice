@@ -959,3 +959,48 @@ footer {
     background: #3E3E3D;
 }
 
+.footer__menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.before_the_line-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.information-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 717px;
+    padding-right: 122px;
+}
+
+.information-content__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__menu-title {
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'montserratbold';
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.information-content ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.footer__menu-link a {
+    color: #777E89;
+    font-size: 14px;
+    font-family: 'montserratregular';
+    line-height: 27px;
+    text-decoration: none;
+}
