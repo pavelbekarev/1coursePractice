@@ -7,12 +7,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/report__slider.js"></script>
+    <script defer src="js/certificate__slider.js"></script>
+    <script defer src="js/burger-menu.js"></script>
 </head>
 <body>
     <header>
         <section class="section header-menu">
             <div class="container section__wrapper menu__wrapper">
                 <img class="logo__img" src="img/logo.svg" alt="Логотип АМИПРОФ">
+                
+                <button class="burger" id="burgerButton">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </button>
+                
                 <div class="menu">
                     <ul class="menu__list">
                         <li class="menu__item">
@@ -41,7 +51,7 @@
                 <div class="menu__social-info">
                     <img class="phone-image" src="img/footer__phone-icon.svg" alt="Иконка телефона">
                     <a href="tel: +7 (351) 777-80-70" class="menu__social-info--phone">+7 (351) 777-80-70</a>
-                    <a href="#"><img src="img/arrow-down.svg" alt="Стрелка вниз"></a><br>
+                    <a class="arrowDown" href="#"><img src="img/arrow-down.svg" alt="Стрелка вниз"></a><br>
                     <a class="call-order" href="#">Заказать звонок</a>
                 </div>
             </div>
@@ -125,21 +135,41 @@
                 <div class="report__content">
                     <h1 class="report__title">Отзывы клиентов</h1>
                     <div class="certificates__content">
+                        <div class="slider__wrapper">
+                            <div class="slider">
+                                <div class="slider__items report__items">
+                                    <div class="slider__item">
+                                        <div class="certificate-slider">
+                                            <img src="img/certificate.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slider__item">
+                                        <div class="certificate-slider">
+                                            <img src="img/certificate.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slider__item">
+                                        <div class="certificate-slider">
+                                            <img src="img/certificate.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="certificate certificate1"></div>
                         <div class="certificate certificate2"></div>
                         <div class="certificate certificate3"></div>
                     </div>
-                    
                     <div class="show_information">
                         <div class="buttons">
-                            <button role="button" class="buttonLeft"><img src="img/arrow-left.svg" alt=""></button>
-                            <button role="button" class="buttonRight"><img src="img/arrow-right.svg" alt=""></button>
+                            <button role="button" class="buttonLeft report__leftButton"><img src="img/arrow-left.svg" alt=""></button>
+                            <button role="button" class="buttonRight report__rightButton"><img src="img/arrow-right.svg" alt=""></button>
                         </div>
                         <div class="show-more">
                             <a class="show-more__link" href="">показать все</a>
                         </div>
                     </div>
-                    
                 </div>
                 <img class="report__bgImage" src="img/report__bgImage.svg" alt="Изображение на заднем фоне">
             </div>
@@ -162,7 +192,7 @@
                     </button>
 
                     <div class="project2">
-                        <h2 class="project-subtitle">название проекта 1</h2>
+                        <h2 class="project-subtitle">название проекта 2</h2>
                         <img class="project__image" src="img/project2__image.svg" alt="Рисунок проекта 2">
                         <span class="project__description">Очень много текста примерно на три строчки, ибо больше никто читать не будет.</span>
                     </div>
@@ -177,8 +207,8 @@
             </div>
         </section>
 
-        <section class="section container">
-            <img class="news__bg" src="img/news__preview-bg.svg" alt="">
+        <section class="section container section__news">
+            <!-- <img class="news__bg" src="img/news__preview-bg.svg" alt=""> -->
             <div class="section__news-content">
                 <div class="preview">
                     <h1 class="preview__title">рубрика важных новостей</h1>
@@ -266,6 +296,29 @@
                 <div class="report__content">
                     <h1 class="report__title">сертификаты</h1>
                     <div class="certificates__content">
+                        <div class="slider__wrapper">
+                            <div class="slider">
+                                <div class="slider__items certificate__items">
+                                    <div class="slider__item">
+                                        <div class="certificate-slider">
+                                            <img src="img/certificate.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slider__item">
+                                        <div class="certificate-slider">
+                                            <img src="img/certificate.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slider__item">
+                                        <div class="certificate-slider">
+                                            <img src="img/certificate.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                         <div class="certificate certificate1"></div>
                         <div class="certificate certificate2"></div>
                         <div class="certificate certificate3"></div>
@@ -273,9 +326,9 @@
                     
                     <div class="show_information">
                         <div class="buttons">
-                            <button role="button" class="buttonLeft"><img src="img/arrow-left.svg" alt=""></button>
-                            <button role="button" class="buttonRight"><img src="img/arrow-right.svg" alt=""></button>
-                        </div>
+                            <button role="button" class="buttonLeft certificate__leftButton"><img src="img/arrow-left.svg" alt=""></button>
+                            <button role="button" class="buttonRight certificate__rightButton"><img src="img/arrow-right.svg" alt=""></button>
+                        </div>  
                         <div class="show-more">
                             <a class="show-more__link" href="">показать все</a>
                         </div>
@@ -325,9 +378,13 @@
                     <div class="information-content__content"><h2 class="footer__menu-title">Контакты</h2></div>
                 </div>
                 <div class="social-content">
-                    <div class="search-bar">
+                    <!-- <div class="search-bar">
                         <input type="search" placeholder="Поиск"><button class="search-icon"><img src="img/search-icon.svg" alt=""></button>
-                    </div>
+                    </div> -->
+
+                    <form action="">
+                        <input class="search-bar" placeholder="Поиск"><button class="search-icon" type="submit"><img src="img/search-icon.svg" alt=""></button>
+                    </form>
                     <div class="social__info">
                         <div class="first-line">
                             <div class="email">
@@ -361,8 +418,6 @@
                         <img src="img/bottom-logo.svg" alt="">
                     </div>
                 </div>
-                
-
             </div>
         </section> 
     </footer>
