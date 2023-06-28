@@ -1195,7 +1195,7 @@ footer {
     font-family: 'montserratregular';
 }
 
-.call-button button {
+.call-button {
     width: 175px;
     height: 41px;
     flex-shrink: 0;
@@ -1215,9 +1215,16 @@ footer {
     color: #a4a4a4;
 }
 
-.call-button button:hover,
-.call-button button:focus {
+.call-button:hover {
     background-color: #ffa91e;
+}
+
+.call-button:focus {
+    background-color: #ff9d00;
+}
+
+.call-button:active {
+    background-color: #c48218;
 }
 
 .after_the_line-content {
@@ -1422,6 +1429,11 @@ footer {
 @media (max-width: 919px) {
     .logo__img {
         width: 80px;
+    }
+
+    .header-menu {
+        /* background-size: 75em; */
+        min-height: 500px;
     }
 }
 
@@ -1702,7 +1714,7 @@ footer {
         max-width: 240px;
     }
 
-    .call-button button {
+    .call-button {
         width: 140px;
         font-size: 12px;
     }
