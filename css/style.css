@@ -1314,7 +1314,7 @@ footer {
 
 @media (max-width: 1154px) {
     .information-content {
-        padding-right: 0px  ;
+        padding-right: 0px;
     }
 
     .form__image-Left {
@@ -1789,6 +1789,14 @@ footer {
     .before_the_line-content {
         flex-direction: column;
     }
+
+    .information-content {
+        padding: 0 30px;
+    }
+
+    .social-content {
+        padding: 30px 30px;
+    }
 }
 
 @media (max-width: 595px) {
@@ -1862,10 +1870,6 @@ footer {
     .projects__date {
         margin: -90px;
     }
-
-    .social-content {
-        padding: 30px 30px;
-    }
 }
 
 @media (max-width: 461px) {
@@ -1909,6 +1913,10 @@ footer {
     .burger {
         left: 85%;
     }
+
+    .information-content {
+        padding: 0 10px;
+    }
 }
 
 @media (max-width: 383px) {
@@ -1924,5 +1932,35 @@ footer {
 @media (max-width: 368px) {
     .projects__section-content .buttonRight {
         right: 210%;
+    }
+
+    .information-content {
+        padding: 0;
+    }
+}
+
+@media (max-width: 359px) {
+    .information-content {
+        display: grid;
+        grid-template-areas: "el1 el3"
+                             "el2 el2";
+    }
+
+    .information-content__content1 {
+        grid-area: el1;
+    }
+
+    .information-content__content2 {
+        grid-area: el2;
+    }
+
+    .information-content__content3 {
+        grid-area: el3;
+    }
+}
+
+@media (max-width: 346px) {
+    .projects__section-content .buttonRight {
+        right: 250%;
     }
 }
