@@ -1228,12 +1228,13 @@ footer {
     display: flex;
     align-items: center;
     margin-top: 55px;
+    width: 100%;
 }
 
 .bottom-logo {
-    position: absolute;
-    left: 45%;
-    margin: 0 auto;
+    /* position: absolute;
+    left: 45%; */
+    margin-left: 25%;
 }
 
 .bottom-text span {
