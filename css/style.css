@@ -27,7 +27,7 @@ body {
     /* background-color: red; */
     margin: 0 auto;
     position: relative;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header-bg {
@@ -1422,11 +1422,6 @@ footer {
 @media (max-width: 919px) {
     .logo__img {
         width: 80px;
-    }
-
-    .header-menu {
-        /* background-size: 75em; */
-        min-height: 500px;
     }
 }
 
