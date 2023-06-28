@@ -216,26 +216,34 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 11px 26px;
+    justify-content: center;
     gap: 10px;
     background-color: transparent;
     border: 1px solid #DC911B;
     border-radius: 5px;
+    width: 166px;
+    height: 39px;
+    margin-top: 49px;
+    margin-left: 405px;
+}
 
+.service-buttonOdd a {
+    text-decoration: none;
     font-family: 'robotoregular';
     font-weight: 400;
     font-size: 14px;
     line-height: 120%;
     color: #000000;
-
-    margin-top: 49px;
-    margin-left: 405px;
 }
 
 .service-buttonOdd:hover,
 .service-buttonOdd:focus {
-    background-color: #b77917;
+    background-color: #ffa514;
     outline: none;
+}
+
+.service-buttonOdd:active {
+    background-color: #b77917;
 }
 
 .service2 {
