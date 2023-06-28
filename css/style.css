@@ -76,6 +76,7 @@ body {
     height: 2px;
     width: 40px;
     background-color: #FFFFFF;
+
 }
 
 .menu__list {
@@ -1579,7 +1580,6 @@ footer {
         border: none;
         outline: none;
         z-index: 2;
-
     }
 
     .show-menu {
@@ -1861,6 +1861,10 @@ footer {
     .projects__date {
         margin: -90px;
     }
+
+    .social-content {
+        padding: 30px 30px;
+    }
 }
 
 @media (max-width: 461px) {
@@ -1878,10 +1882,46 @@ footer {
     .clients__section-title {
         margin: 57px auto 0 auto;
     }
+
+    
 }
 
 @media (max-width: 400px) {
     .projects__section-content .buttonRight {
         right: 160%;
+    }
+
+    .certificate-slider img {
+        width: 267px;
+        height: 433px;
+    }
+
+    .slider {
+        height: 391px;
+        width: 296px;
+    }
+
+    .slider__item {
+        width: 296px;
+    }
+
+    .burger {
+        left: 85%;
+    }
+}
+
+@media (max-width: 383px) {
+    .projects__section-content .buttonRight {
+        right: 180%;
+    }
+
+    .project__description {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 368px) {
+    .projects__section-content .buttonRight {
+        right: 210%;
     }
 }

@@ -6,7 +6,7 @@ const buttonRight = document.querySelector(".report__rightButton");
 
 let maxItems = 3;
 let currentItem = 1;
-let width = 370;
+let width = document.querySelector(".slider__item").getBoundingClientRect().width;
 
 
 buttonRight.addEventListener("click", () => {

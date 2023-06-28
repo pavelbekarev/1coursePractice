@@ -6,7 +6,7 @@ const rightButton = document.querySelector(".certificate__rightButton");
 
 let maximumItems = 3;
 let itemCurrent = 1;
-let itemWidth = 370;
+let itemWidth = document.querySelector(".slider__item").getBoundingClientRect().width;
 
 
 rightButton.addEventListener("click", () => {
