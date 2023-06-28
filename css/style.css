@@ -1538,6 +1538,7 @@ footer {
     }
 
     .project-subtitle {
+        margin-top: 55px;
         font-size: 22px;
     }
 
@@ -1962,5 +1963,35 @@ footer {
 @media (max-width: 346px) {
     .projects__section-content .buttonRight {
         right: 250%;
+    }
+}
+
+@media (max-width: 324px) {
+    .projects__section-content .buttonRight {
+        right: 300%;
+    }
+
+    .show-more__link {
+        margin-left: 34px;
+    }
+
+    .slider {
+        height: 324px;
+        width: 229px;
+    }
+
+    .slider__item {
+        width: 229px;
+    }
+
+    .certificate-slider img {
+        width: 200px;
+        height: 366px;
+    }
+}
+
+@media (max-width: 318px) {
+    .project__description {
+        margin-left: -76px;
     }
 }
